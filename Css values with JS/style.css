@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+:root{
+    --spacing:10px;
+    --base:#ffc600;
+    --blur:10px;
+}
+body{
+    text-align: center;
+    color: white;
+    background: #193549;
+    font-family:'Acme', sans-serif ;
+    font-size: 50px;
+    font-weight: 100;
+}
+img{
+    padding: var(--spacing);
+    background:var(--base);
+    filter: blur(var(--blur));
+}
+.hl
+{
+    color:var(--base);
+}
